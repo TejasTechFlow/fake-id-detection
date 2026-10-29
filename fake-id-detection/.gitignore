@@ -1,0 +1,15 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+*.db
+trained_models/*
+!trained_models/.gitkeep
+reports/*
+!reports/.gitkeep
+# Private datasets: keep real data out of version control
+data/private/
+data/*_real*.csv

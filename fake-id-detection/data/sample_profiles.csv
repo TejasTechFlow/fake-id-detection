@@ -1,0 +1,11 @@
+profile_ref,platform,account_age_days,followers,following,posts,has_profile_pic,has_bio,verified,activity_level,is_synthetic_demo
+demo_profile_01,Instagram,107,85.0,5683.0,3,yes,yes,not_verified,,True
+demo_profile_02,X,1715,114.0,122.0,264,yes,,not_verified,high,True
+demo_profile_03,Facebook,172,,,104,yes,yes,not_verified,medium,True
+demo_profile_04,LinkedIn,1806,119.0,474.0,481,,,,,True
+demo_profile_05,Instagram,382,56.0,176.0,33,yes,yes,not_verified,medium,True
+demo_profile_06,X,77,7.0,72.0,31,yes,no,not_verified,low,True
+demo_profile_07,Other,38,53.0,430.0,13,yes,no,not_verified,high,True
+demo_profile_08,Instagram,643,103.0,358.0,32,yes,yes,not_verified,medium,True
+demo_profile_09,X,250,9.0,103.0,23,yes,no,not_verified,high,True
+demo_profile_10,Facebook,486,1078.0,601.0,57,yes,no,not_verified,low,True

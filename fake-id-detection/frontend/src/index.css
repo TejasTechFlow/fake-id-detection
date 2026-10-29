@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 11 16 32; --sidebar: 16 23 42; --card: 21 29 51; --line: 38 50 75;
+  --ink: 248 250 252; --muted: 148 163 184;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: 244 246 251; --sidebar: 255 255 255; --card: 255 255 255; --line: 218 224 238;
+  --ink: 15 23 42; --muted: 82 96 120;
+  color-scheme: light;
+}
+body {
+  @apply bg-bg font-sans text-ink antialiased;
+  background-image: radial-gradient(900px 420px at 85% -10%, rgb(139 92 246 / 0.12), transparent),
+                    radial-gradient(700px 360px at 0% 0%, rgb(59 130 246 / 0.10), transparent);
+  background-attachment: fixed;
+}
+:focus-visible { outline: 2px solid #3B82F6; outline-offset: 2px; }
+.glass { background: rgb(var(--card) / 0.65); backdrop-filter: blur(10px); }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
